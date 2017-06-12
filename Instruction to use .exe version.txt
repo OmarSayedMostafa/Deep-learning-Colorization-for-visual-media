@@ -1,0 +1,34 @@
+Welcome To DEEP LEARNING BASED COLORIZATION FOR VISUAL MEDIA
+----------------------------------------------------------------
+
+This folder contains:
+1- .exe app to run and test the project.( please read full instructions to run successfully ).
+2- Folder contains the source code of the project.
+---------------------------------------------------
+
+1.1 - Instructions to run the .exe
+--------------------------------------
+1- Choose a landscape (barks, gardens,..) images for testing because our model is trained over 
+   a landscape dataset only.
+
+2- You’ll never be required to setup any programs, environments, python setup scripts or libraries,
+   just follow next instructions.
+ 
+ 1- Move the Colorization Model folder to 'C:' Drive.
+ 2- Put the Greyscale image in the Colorization Model folder.
+ 3- Open ColorizationModel.exe.
+ 4- the .exe will require the name of the greyscale image name(don't forget to add image extension)[example gry_image.png].
+ 5- the .exe will load the image and colorize it.
+ 6- the result (colored image) will be saved at the same folder of .exe and it's name will be the same name of gray image plus "_Colored".
+
+
+2.1 - Instructions to run the source code:
+ -------------------------------------------
+ 1- Install python 3.5.2
+ 2- Install Tensorflow Library.
+ 3- Install matplot
+ 4- Install Image(PIL)
+ 5- Install Numpy
+ 6- Install Skimage.
+ 7- Don't forget to change Data set paths (colored_image/gray_image), and path of test images and grounsd truth if exist.
+  
