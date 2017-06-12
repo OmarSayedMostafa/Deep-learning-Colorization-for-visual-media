@@ -19,5 +19,10 @@ Applied on Landscape images only(2000 images from MIT Places) data-set for leak 
 * download .exe file attached
 * read insteraction to use .exe.txt to know how to run for first time
 
+# Notes
+* you should aware of change file pathes corrosponding to your data set locations when try to read or test images
+* you should aware of handle creating Model weight directory for first time to save trained model's weights every time you preform tarining.
+* there are a single file contain the whole code as functions used temporary for testing u can use it if u are not an OOP fan :D.
+
 for any question: omareasko3@gamil.com.
 
