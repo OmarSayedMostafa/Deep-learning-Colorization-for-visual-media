@@ -20,6 +20,7 @@ https://drive.google.com/drive/folders/0B7FFqObqrfTDTWJMcE5UN3I3UjQ?usp=sharing
 * read insteraction to use .exe.txt to know how to run for first time
 
 # Notes
+* project still under maintains and processing.
 * you should aware of change file pathes corrosponding to your data set locations when try to read or test images
 * you should aware of handle creating Model weight directory for first time to save trained model's weights every time you preform tarining.
 * there are a single file contain the whole code as functions used temporary for testing u can use it if u are not an OOP fan :D.
