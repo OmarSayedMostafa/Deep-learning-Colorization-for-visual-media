@@ -25,5 +25,5 @@ https://drive.google.com/drive/folders/0B7FFqObqrfTDTWJMcE5UN3I3UjQ?usp=sharing
 * you should aware of handle creating Model weight directory for first time to save trained model's weights every time you preform tarining.
 * there are a single file contain the whole code as functions used temporary for testing u can use it if u are not an OOP fan :D.
 
-for any question: omareasko3@gamil.com.
+for any question: omar.sayed.mostafa@gmail.com
 
