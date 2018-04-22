@@ -13,19 +13,19 @@ class UpSizeColorNet:
 
     def _init_model(self, model_path=None):
         
-        self.Color_weights = {'W_conv1':tf.Variable(tf.truncated_normal([3,3,512,256], stddev=0.0001)),
-                              'W_conv2':tf.Variable(tf.truncated_normal([3,3,256,128], stddev=0.0001)),
-                              'W_conv3':tf.Variable(tf.truncated_normal([3,3,128,64], stddev=0.0001)),
-                              'W_conv4':tf.Variable(tf.truncated_normal([3,3,64,64], stddev=0.0001)),
-                              'W_conv5':tf.Variable(tf.truncated_normal([3,3,64,32], stddev=0.0001)),
-                              'W_conv6':tf.Variable(tf.truncated_normal([3,3,32,2], stddev=0.0001))}
+        self.Color_weights = {'W_conv1':tf.Variable(tf.truncated_normal([3,3,512,256], stddev=0.001)),
+                              'W_conv2':tf.Variable(tf.truncated_normal([3,3,256,128], stddev=0.001)),
+                              'W_conv3':tf.Variable(tf.truncated_normal([3,3,128,64], stddev=0.001)),
+                              'W_conv4':tf.Variable(tf.truncated_normal([3,3,64,64], stddev=0.001)),
+                              'W_conv5':tf.Variable(tf.truncated_normal([3,3,64,32], stddev=0.001)),
+                              'W_conv6':tf.Variable(tf.truncated_normal([3,3,32,2], stddev=0.001))}
  
-        self.Color_biases = {'b_conv1':tf.Variable(tf.truncated_normal([256], stddev=0.0001)),
-                             'b_conv2':tf.Variable(tf.truncated_normal([128], stddev=0.0001)),
-                             'b_conv3':tf.Variable(tf.truncated_normal([64], stddev=0.0001)),
-                             'b_conv4':tf.Variable(tf.truncated_normal([64], stddev=0.0001)),
-                             'b_conv5':tf.Variable(tf.truncated_normal([32], stddev=0.0001)),
-                             'b_conv6':tf.Variable(tf.truncated_normal([2], stddev=0.0001))}    
+        self.Color_biases = {'b_conv1':tf.Variable(tf.truncated_normal([256], stddev=0.001)),
+                             'b_conv2':tf.Variable(tf.truncated_normal([128], stddev=0.001)),
+                             'b_conv3':tf.Variable(tf.truncated_normal([64], stddev=0.001)),
+                             'b_conv4':tf.Variable(tf.truncated_normal([64], stddev=0.001)),
+                             'b_conv5':tf.Variable(tf.truncated_normal([32], stddev=0.001)),
+                             'b_conv6':tf.Variable(tf.truncated_normal([2], stddev=0.001))}
        
     def build(self, input_tensor):
         

@@ -20,12 +20,12 @@ class ML:
 
     def _init_model(self):
         
-        self.MLHidden_layer.append({'weights': tf.Variable(tf.truncated_normal([7 * 7 * 512, self.MLnode_for_each_layer[0]], stddev=0.0001)),
-                                    'biases': tf.Variable(tf.truncated_normal([self.MLnode_for_each_layer[0]],stddev=0.0001))})
+        self.MLHidden_layer.append({'weights': tf.Variable(tf.truncated_normal([7 * 7 * 512, self.MLnode_for_each_layer[0]], stddev=0.001)),
+                                    'biases': tf.Variable(tf.truncated_normal([self.MLnode_for_each_layer[0]],stddev=0.001))})
         
         for i in range(1, self.layers_count):
-            self.MLHidden_layer.append({'weights': tf.Variable(tf.truncated_normal([self.MLnode_for_each_layer[i - 1], self.MLnode_for_each_layer[i]], stddev=0.0001)),
-                                        'biases': tf.Variable(tf.truncated_normal([self.MLnode_for_each_layer[i]], stddev=0.0001))})
+            self.MLHidden_layer.append({'weights': tf.Variable(tf.truncated_normal([self.MLnode_for_each_layer[i - 1], self.MLnode_for_each_layer[i]], stddev=0.001)),
+                                        'biases': tf.Variable(tf.truncated_normal([self.MLnode_for_each_layer[i]], stddev=0.001))})
      
     def build(self, input_tensor):
         

@@ -13,11 +13,11 @@ class MidLevelFeatureNet:
             self._init_model()
             
     def _init_model(self):
-        self.Mid_weights = {'W_conv1':tf.Variable(tf.truncated_normal([3,3,512,512], stddev=0.0001)),
-                            'W_conv2':tf.Variable(tf.truncated_normal([3,3,512,256], stddev=0.0001))}
+        self.Mid_weights = {'W_conv1':tf.Variable(tf.truncated_normal([3,3,512,512], stddev=0.001)),
+                            'W_conv2':tf.Variable(tf.truncated_normal([3,3,512,256], stddev=0.001))}
  
-        self.Mid_biases = {'b_conv1':tf.Variable(tf.truncated_normal([512], stddev=0.0001)),
-                           'b_conv2':tf.Variable(tf.truncated_normal([256], stddev=0.0001))}
+        self.Mid_biases = {'b_conv1':tf.Variable(tf.truncated_normal([512], stddev=0.001)),
+                           'b_conv2':tf.Variable(tf.truncated_normal([256], stddev=0.001))}
 
     def build(self, input_tensor):
         
