@@ -18,6 +18,8 @@ https://drive.google.com/drive/folders/0B7FFqObqrfTDTWJMcE5UN3I3UjQ?usp=sharing
 * note: it's trained only on simple landscape images(2000 image) so it will not give a good result if tried to test anothe category or complex images
 * download .exe file attached from google drive and instruction file
 * read insteraction to use .exe.txt to know how to run for first time
+* Colorization trained model weights https://drive.google.com/file/d/1QzTMl8jHeowjzRP7DcfIQk4IpwVyTaGo/view?usp=sharing
+* let me know if you faced any problem with loading the pretrained weights
 
 # Notes
 * project still under maintains and processing.
