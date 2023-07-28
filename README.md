@@ -1,5 +1,7 @@
 # watch the demo on youtube:
 https://www.youtube.com/watch?v=Jgc8eNd_4Eg&t=57s
+![Image](resources/1.png)
+![Image](resources/2.png)
 
 # Deep-learning-Colorization-for-visual-media
 Automatic colorization for grayscale (images/ videos) based on Deep-Learning using (Python &amp; Tensorflow).
